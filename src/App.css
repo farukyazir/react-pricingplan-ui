@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  font-family:"Open Sans", sans-serif;
+  padding: 0;
+}
+body{
+  background: linear-gradient(to right, #1e63d5, #4f8df5);
+  margin: 0;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 100vh;
+}
+.card{
+  background: white;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+.yes{
+  color: black;
+}
+.no{
+  color: grey;
+}
+li{
+  list-style: none;
+  text-align: left;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+@media (max-width: 768px){
+  .card-container{
+    flex-direction: column;
+  }
+}
