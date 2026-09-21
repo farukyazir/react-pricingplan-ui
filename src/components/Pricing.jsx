@@ -12,6 +12,7 @@ const Pricing = ({plan}) => {
             ))
            }
         </ul>
+        <button>BUTTON</button>
     </div>
   )
 }
